@@ -1,0 +1,74 @@
+{
+    "name": "ObserverableController",
+    "maps": [
+        {
+            "name": "DesktopController",
+            "id": "852f4d0f-2239-4257-933f-988d0d5b7a16",
+            "actions": [
+                {
+                    "name": "Start Look",
+                    "type": "Button",
+                    "id": "b6be5433-02e8-48b3-86b7-83a10ed22ba9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Zoom",
+                    "type": "Value",
+                    "id": "be5b4c43-044a-4e5f-9074-1180b9ea9e5c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Look",
+                    "type": "Value",
+                    "id": "00a7bdd2-f030-41f0-91c3-8fbcde5a7f8a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4032e123-55c6-42c3-8ba0-7465cd5abb0a",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Start Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8a184b31-a8d3-4e59-8bf2-2a5b7302aeac",
+                    "path": "<Mouse>/scroll",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Zoom",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f6c3a134-65be-4a4f-9c9e-f09f22219687",
+                    "path": "<Pointer>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
